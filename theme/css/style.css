@@ -739,10 +739,10 @@ INner Pages
   position: absolute;
   right: 0px;
   content: "";
-  background: url("../images/banner/1.jpg") 50% 50%;
+  background: url("../images/about/Marketing.jpeg") 50% 50%;
   width: 40%;
   height: 100%;
-  max-height: 560px;
+  max-height: 675px;
   top: 0px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
 }
