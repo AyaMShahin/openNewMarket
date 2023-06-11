@@ -676,9 +676,9 @@ INner Pages
   padding-bottom: 0px;
 }
 
-.intro-img {
+/* .intro-img {
   margin-top: 45px;
-}
+} */
 
 #intro .section-heading p {
   color: #000;
@@ -1009,7 +1009,9 @@ SERVICE PAGE
   padding-bottom: 30px;
   padding-top: 30px;
 }
-
+.price-header .title {
+  margin-top: 25px;
+}
 .price-header i {
   width: 100px;
   height: 100px;
@@ -1024,7 +1026,7 @@ SERVICE PAGE
 }
 
 .price-header .price {
-  font-size: 70px;
+  font-size: 50px;
   margin-top: 40px;
   margin-bottom: 0px;
 }
@@ -1042,6 +1044,9 @@ SERVICE PAGE
   margin-bottom: 30px;
   border-bottom: 1px solid #eee;
 }
+.pricing-block .center-list {
+  padding-bottom: 58px;
+}
 
 .pricing-block ul li {
   padding: 6px 0px;
@@ -1051,7 +1056,9 @@ SERVICE PAGE
   margin-bottom: 30px;
 }
 
-.pricing-block:hover i {
+.pricing-block:hover .icofont-diamond,
+.pricing-block:hover .icofont-rocket-alt-1,
+.pricing-block:hover .icofont-light-bulb {
   background-image: -webkit-linear-gradient(
     135deg,
     #2f1ce0 0%,
