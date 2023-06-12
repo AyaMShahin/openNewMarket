@@ -1,0 +1,23 @@
+[debug] [2023-06-12T01:04:30.180Z] ----------------------------------------------------------------------
+[debug] [2023-06-12T01:04:30.183Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mega Store\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-06-12T01:04:30.183Z] CLI Version:   12.3.1
+[debug] [2023-06-12T01:04:30.184Z] Platform:      win32
+[debug] [2023-06-12T01:04:30.184Z] Node Version:  v18.12.1
+[debug] [2023-06-12T01:04:30.185Z] Time:          Mon Jun 12 2023 03:04:30 GMT+0200 (Eastern European Standard Time)
+[debug] [2023-06-12T01:04:30.185Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-12T01:04:30.266Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-12T01:04:30.266Z] > authorizing via signed-in user (ayashahin05@gmail.com)
+[debug] [2023-06-12T01:04:30.267Z] [iam] checking project open-new-market for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-06-12T01:04:30.269Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/open-new-market:testIamPermissions [none]
+[debug] [2023-06-12T01:04:30.269Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/open-new-market:testIamPermissions x-goog-quota-user=projects/open-new-market
+[debug] [2023-06-12T01:04:30.270Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/open-new-market:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-12T01:04:31.489Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/open-new-market:testIamPermissions 200
+[debug] [2023-06-12T01:04:31.489Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/open-new-market:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-12T01:04:31.491Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/open-new-market [none]
+[debug] [2023-06-12T01:04:52.556Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/open-new-market
+[debug] [2023-06-12T01:04:53.148Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/open-new-market
+    at RetryOperation._fn (C:\Users\Mega Store\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:242:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project open-new-market. Please make sure the project exists and your account has permission to access it.
