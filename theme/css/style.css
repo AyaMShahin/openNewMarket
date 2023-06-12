@@ -1849,6 +1849,78 @@ BLOG SINGLE
   max-width: 800px;
   margin: 0 auto;
 }
+/*--------------------------
+ FAQ
+----------------------*/
+.FAQ {
+  background-color: #f4f8fb;
+}
+.faq-heading {
+  margin-top: 45px;
+  margin-bottom: 15px;
+  text-align: start;
+  font-weight: 400;
+  font-size: 30px;
+}
+.FAQ .btn {
+  display: inline;
+  padding: 0;
+  text-transform: capitalize;
+  border: 0;
+  transition: all 0.2s;
+  /* border-radius: 0px; */
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: #075e54;
+}
+.faq-card {
+  border: 1px solid #dce0e8;
+  border-radius: 6px;
+  padding: 24px 20px;
+  margin-bottom: 12px;
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.faq-open-icon {
+  font-size: 22px;
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  font-weight: 700;
+}
+
+details[open] .faq-open-icon {
+  top: 18px;
+  right: 24px;
+}
+
+details > summary {
+  list-style: none;
+  font-weight: 600;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary {
+  color: #635cdb;
+  font-weight: 600;
+}
+
+details[open] .faq-card-spoiler {
+  display: inline-block;
+  padding-top: 8px;
+  color: #8b8b9a;
+}
+
+.faq-aftertext {
+  text-align: start;
+  color: #8b8b9a;
+}
 
 /*--------------------------
  FOOTER
