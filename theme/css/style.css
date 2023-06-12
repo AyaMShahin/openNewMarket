@@ -1541,7 +1541,9 @@ FOUNDER SECTION AREA
   border-radius: 12px;
   transition: all 0.3s;
 }
-
+.client {
+  padding: 55px 0;
+}
 /*--------------------------
  CONTACT SECTION AREA
 ----------------------*/
@@ -1857,7 +1859,15 @@ BLOG SINGLE
   background: url("../images/bg/2.png");
   border-top: 1px solid #eee;
 }
-
+#footer .profile-card-social {
+  justify-content: start;
+}
+#footer .profile-card-social__item {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  box-shadow: 0px 14px 20px rgba(43, 98, 169, 0.5);
+}
 .footer-widget ul li {
   padding: 5px 0px;
 }
@@ -2160,9 +2170,15 @@ BLOG SINGLE
     font-size: 16px;
   }
   /* HOW IT WORKS */
+  .how-works {
+    padding: 90px 30px 150px 30px;
+  }
   .content__box {
     height: 315px;
-    padding: 10px;
+    padding: 25px;
+  }
+  .steps .step-btn {
+    margin-left: 10px;
   }
   .content__box h3 {
     font-size: 18px;
@@ -2192,6 +2208,10 @@ BLOG SINGLE
   }
   #about {
     padding-bottom: 40px;
+  }
+  .about-bg-img img {
+    height: 430px;
+    width: 55%;
   }
   .img-block img {
     width: 130px;
