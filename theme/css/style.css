@@ -412,7 +412,13 @@ h5.subtitle {
 .trans-navigation {
   transition: all 0.5s ease 0s;
 }
-
+.lang {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  /* border: 2px solid #fff; */
+}
 .navbar-brand {
   padding-top: 0px;
   margin-right: 60px;
