@@ -573,7 +573,8 @@ ul.dropdown-menu li {
 }
 @media (max-width: 992px) {
   .navbar-collapse {
-    text-align: center;
+    text-align: start;
+    margin-left: 23px;
   }
 }
 .navbar-collapse.show {
