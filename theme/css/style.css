@@ -189,7 +189,7 @@ h5.subtitle {
   display: inline-block;
   padding: 15px 45px 15px 45px;
   text-transform: uppercase;
-  border: 2px solid transparent;
+  border: 0px solid transparent;
   transition: all 0.2s;
   border-radius: 0px;
   font-weight: 600;
@@ -1354,7 +1354,7 @@ FOUNDER SECTION AREA
   .profile-card-social__item {
     width: 50px;
     height: 50px;
-    margin: 10px;
+    margin: 7px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1755,7 +1755,7 @@ BLOG SINGLE
     ----------------*/
 .how-works {
   background-color: #f4f8fb;
-  padding: 90px 90px 150px 90px;
+  padding: 90px 90px 150px 5px;
 }
 .steps {
   display: flex;
@@ -1837,7 +1837,7 @@ BLOG SINGLE
 }
 .content__box {
   background: white;
-  height: 250px;
+  height: 300px;
   box-shadow: 0.9px 2.8px 2.2px rgba(49, 140, 252, 0.02),
     2.1px 6.7px 5.3px rgba(49, 140, 252, 0.028),
     4px 12.5px 10px rgba(49, 140, 252, 0.035),
@@ -2049,6 +2049,11 @@ details[open] .faq-card-spoiler {
   /*----------------
      ABOUT
     ----------------*/
+  #about .col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 79.666667%;
+    max-width: 79.666667%;
+  }
   .about-list li {
     float: none;
     width: 100%;
@@ -2058,6 +2063,11 @@ details[open] .faq-card-spoiler {
     width: 35%;
     height: 100%;
     max-height: 600px;
+    /* text-align: center; */
+    padding-top: 27px;
+  }
+  .about-bg-img img {
+    max-height: 550px;
   }
   .about-content {
     margin-top: 60px;
@@ -2274,6 +2284,7 @@ details[open] .faq-card-spoiler {
     /* width: 35%; */
     height: 100%;
     max-height: 690px;
+    text-align: center;
   }
   .about-content {
     margin-top: 60px;
@@ -2283,7 +2294,7 @@ details[open] .faq-card-spoiler {
   }
   .about-bg-img img {
     height: 430px;
-    width: 55%;
+    width: 70%;
   }
   .img-block img {
     width: 130px;
