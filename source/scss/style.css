@@ -1227,7 +1227,7 @@ FOUNDER SECTION AREA
   .wrapper {
     height: auto;
     min-height: 100vh;
-    padding-top: 100px;
+    padding-top: 10px;
   }
 }
 .profile-card {
@@ -1764,7 +1764,7 @@ BLOG SINGLE
     ----------------*/
 .how-works {
   background-color: #f4f8fb;
-  padding: 90px 90px 150px 5px;
+  padding: 90px 50px 150px 50px;
 }
 .steps {
   display: flex;

@@ -8,6 +8,9 @@
 .values {
   direction: initial;
 }
+.counter-stat {
+  direction: ltr;
+}
 .counter-stat i {
   margin-right: 0;
   margin-left: 10px;
