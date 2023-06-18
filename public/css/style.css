@@ -397,7 +397,9 @@ h5.subtitle {
   transition: all 0.5s ease 0s;
   color: #000 !important;
 }
-
+.logo {
+  font-size: 1rem;
+}
 .navbar-expand-lg.trans-navigation .navbar-nav .nav-link,
 .navbar-expand-lg.site-navigation .navbar-nav .nav-link {
   padding: 0px 24px;
@@ -421,7 +423,7 @@ h5.subtitle {
 }
 .navbar-brand {
   padding-top: 0px;
-  margin-right: 60px;
+  margin-right: 40px;
   font-weight: 700;
   text-transform: capitalize;
   color: #fff;
