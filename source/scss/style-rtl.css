@@ -5,3 +5,45 @@
 .content__box p {
   text-align: right;
 }
+.values {
+  direction: initial;
+}
+.counter-stat i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.intro-box {
+  text-align: end;
+}
+.intro-box h4 {
+  padding-right: 60px;
+  padding-left: 0;
+  /* text-align: end; */
+}
+.intro-box h4:before {
+  left: unset;
+  right: 0;
+}
+.about-us {
+  text-align: right;
+}
+.about-list li {
+  float: right;
+  margin-right: 0;
+  margin-left: 35px;
+}
+.about-list li i {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.about-content .subtitle {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+.faq-card {
+  text-align: right;
+}
+.faq-open-icon {
+  right: unset;
+  left: 38px;
+}
